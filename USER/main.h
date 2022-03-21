@@ -10,5 +10,7 @@
 #include "i2cSlave.h"
 #include "uart.h"
 #include "spiMaster.h"
+#include "i2cMaster.h"
+
 
 #endif  /*__MAIN_H*/

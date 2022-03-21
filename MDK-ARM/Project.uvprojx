@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>GD32E230</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\GD32E23x_FWLib\Include;..\USER;..\Hardware\led;..\Hardware\i2cSlave;..\Hardware\uart;..\Hardware\spiMaster</IncludePath>
+              <IncludePath>..\CMSIS;..\GD32E23x_FWLib\Include;..\USER;..\Hardware\led;..\Hardware\i2cSlave;..\Hardware\uart;..\Hardware\spiMaster;..\Hardware\i2cMaster</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -542,6 +542,11 @@
               <FileName>spiMaster.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Hardware\spiMaster\spiMaster.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2cMaster.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardware\i2cMaster\i2cMaster.c</FilePath>
             </File>
           </Files>
         </Group>

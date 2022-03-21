@@ -65,11 +65,11 @@ uint8_t i2c_test_function(void)
 	{
 		case TEST_REGISTER1:
 			testValue1 = (i2cSlaveDevice.dataBuff[0] << 8) | (i2cSlaveDevice.dataBuff[1]);
-			printf("testValue1 = %#X\r\n",testValue1);
+//			printf("testValue1 = %#X\r\n",testValue1);
 			break;
 		case TEST_REGISTER2:
 			testValue2 = (i2cSlaveDevice.dataBuff[0] << 8) | (i2cSlaveDevice.dataBuff[1]);
-			printf("testValue2 = %#X\r\n",testValue2);
+//			printf("testValue2 = %#X\r\n",testValue2);
 			break;
 		default:
 			break;
